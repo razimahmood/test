@@ -1,0 +1,7 @@
+services:
+  tomcat:
+    build:
+      context: ./app
+    container_name: p1_tomcat
+    ports:
+      - "8080:8080"
